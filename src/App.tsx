@@ -1,55 +1,46 @@
 import React, { useContext} from 'react';
 import { BrowserRouter as Router, Route,  Switch} from "react-router-dom";
-
+/**STORE */
 import {Store } from './Store';
 
 
 /**COMPONENTS */
  import Navbar from './components/Global/Navbar';
  import Footer from './components/Global/Footer';
- 
- 
 import Home from './components/Home';
- 
 import Recipe from './components/Recipe';
 import FavouriteSelection from './components/FavouriteSelection';
 
 const App: React.FC = () => {
-
+/** get state from context*/
  const {state}= useContext(Store);
 
-
-return (
-   
-  <Router>
-    <Navbar 
-     {...state}
-    />
-    
-
-    <Switch>
-      <Route  
-      exact 
-      path="/" 
-      component={Home}
+  return ( 
+    <Router>
+      <Navbar {...state}/>
       
-      />
 
-      <Route  
-      exact 
-      path="/recipes/:id" 
-     component={Recipe}/> />
+      <Switch>
+        <Route  
+        exact 
+        path="/" 
+        component={Home}/>
 
-      <Route  
-      exact 
-      path="/favourites" 
-     component={FavouriteSelection}/> />
+        <Route  
+        exact 
+        path="/recipes/:id" 
+        component={Recipe}/> />
 
-    </Switch>
+        <Route  
+        exact 
+        path="/favourites" 
+        component={FavouriteSelection}/> />
 
-    <Footer/>
-  </Router>
-  );
+      </Switch>
+
+      <Footer/>
+    </Router>
+    );
 }
 
 export default App;

@@ -1,11 +1,12 @@
 import React from 'react';
-// import { RouteComponentProps } from "react-router-dom";
+import { Link} from "react-router-dom";
 
+ /** ICON */
 import {FaRegHeart } from 'react-icons/fa';
  
+ /**  -INTERFACE */
 import {IRecipesAPI, RecipeProps} from '../interfaces';
 
-import { Link} from "react-router-dom";
  
 
 const  RecipesList: React.FunctionComponent<RecipeProps> = (props) =>  {

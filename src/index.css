@@ -59,7 +59,7 @@ a{
   text-decoration:none;
 }
 
-input, select{
+input:focus, select:focus, button:focus{
   outline: none;
 }
 

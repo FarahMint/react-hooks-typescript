@@ -4,9 +4,9 @@ import React, { useContext } from 'react';
 import RecipesList from './RecipesList';
 
  /** STORE  -INTERFACE -ACTIONS */
-import {Store } from '../Store';
-import { RecipeProps} from '../interfaces';
-import { toggleFavAction } from '../action';
+import {Store } from '../store';
+import { RecipeProps} from '../store/interfaces';
+import { toggleFavAction } from '../store/action';
 
 
 export default function FavouriteSelection():JSX.Element {

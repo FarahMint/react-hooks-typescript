@@ -1,45 +1,90 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is currently hosted  with [Netlify](https://admiring-panini-c66503.netlify.com/).
 
-## Available Scripts
+## Cooking chef project bis
 
-In the project directory, you can run:
+Recipes recommendation web applications with filtering and search features, plus it allows users to select and save favorite recipe.
 
-### `npm start`
+Build with:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ 	1.	React.js,  
+	2.	Context API
+	3.	Typescript
+	4.	Food"Fork API
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+     PS: This is a refactoring of this  project https://github.com/FarahMint/CookingChef.  
+
+ ## 🧐 What's inside?
+
+
+A quick look at the top-level files and directories you'll see in my React project.
+
+FOLDER STRUCTURE
+( ROOT )
+
+--- index.js
+--- app.js
+    --- components
+        --- Global
+            --Footer
+            --Navbar
+
+        --- FavouritesSelection
+        --- Home
+        --- RecipesList
+        --- Recipe 
+        --- Search
+
+--- Store
+    -- Action
+    -- Store
+    -- Interface
+
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+ ## 💫 Deployed
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[![Deployed with Netlify]]
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+[deployment](https://admiring-panini-c66503.netlify.com/)  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ 
+#print screen
 
-### `npm run eject`
+1.  **`Desktop Landing page`**
+![1_desktop-landing-page](https://user-images.githubusercontent.com/18241226/62158868-62310200-b308-11e9-8d86-42740d78f58e.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+2.  **`Mobile Landing page`**
+![1_mobile-landing-page](https://user-images.githubusercontent.com/18241226/62158874-62c99880-b308-11e9-9732-f497033e531d.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3.  **`Tablet Landing page`**
+![3_tablet-landing-page](https://user-images.githubusercontent.com/18241226/62158883-63fac580-b308-11e9-9bfc-024c73874d1b.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4.  **`Desktop Recipes list display`**
+![1_desktop-recipes-list](https://user-images.githubusercontent.com/18241226/62158869-62310200-b308-11e9-826b-fcd82a20c1b9.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+5.  **`Tablet Recipes list display`**
+![3_tablet-recipes-list](https://user-images.githubusercontent.com/18241226/62158887-64935c00-b308-11e9-9725-b6a2d4c67a43.png)
 
-## Learn More
+6.  **`Desktop search result display`**
+![1_desktop-search-result](https://user-images.githubusercontent.com/18241226/62158871-62c99880-b308-11e9-9e6e-dbe8b74f6870.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7.  **`Mobile search result display`**
+![1_mobile-result](https://user-images.githubusercontent.com/18241226/62158876-62c99880-b308-11e9-9e22-eb14ffbe2d6a.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# react-hooks-typescript
+8.  **`Mobile Mobile display`**
+![2_mobile-recipe-details](https://user-images.githubusercontent.com/18241226/62158878-63622f00-b308-11e9-8f15-607ccc02543b.png)
+
+9.  **`Tablet recipe details display`**
+![2_tablet-recipe-details](https://user-images.githubusercontent.com/18241226/62158879-63622f00-b308-11e9-9299-6f40513bf5a3.png)
+
+10.  **`Mobile select favourite display`**
+![3_mobile-select-fav](https://user-images.githubusercontent.com/18241226/62158880-63622f00-b308-11e9-82e8-e53f6c70f155.png)
+
+11.  **`Tablet select favourite display`**
+![3_tablet-recipe-favourites](https://user-images.githubusercontent.com/18241226/62158885-63fac580-b308-11e9-9035-a5e75db7a1da.png)
+
+!

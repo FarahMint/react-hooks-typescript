@@ -1,4 +1,4 @@
-import {IRecipesAPI, IAction,IState, Dispatch } from './interfaces';
+import {IRecipesAPI, IAction,IState, Dispatch } from '../store/interfaces';
  
 const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY
 

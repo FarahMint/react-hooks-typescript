@@ -1,6 +1,6 @@
 import React , {useState} from 'react';
 
-import { RecipeProps} from '../../interfaces';
+import { RecipeProps} from '../../store/interfaces';
 /* Router*/
 import {NavLink} from 'react-router-dom';
 
@@ -33,12 +33,14 @@ const  Navbar: React.FunctionComponent<RecipeProps> = (props) =>  {
             <ul 
             className={isOpen ? `nav-links show-nav`: `nav-links`}
             >
-                <NavLink to='/'>
+                <NavLink to='/'
+                onClick={()=>setIsOpen(!isOpen)}>
                 <li> Recipes</li>
                 </NavLink>
                 
                 {props.favourites.length > 0 &&
-                (<NavLink to='/favourites'>
+                (<NavLink to='/favourites'
+                onClick={()=>setIsOpen(!isOpen)}>
                 <li> favourites
                 <span className="badge">{props.favourites.length}</span>
                 </li>

@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from 'react';
 
- import {Store } from '../Store';
- import { IDetailsRecipe } from '../interfaces';
+ import {Store } from '../store';
+ import { IDetailsRecipe } from '../store/interfaces';
 
- import { fetchOneAction } from '../action';
+ import { fetchOneAction } from '../store/action';
 
  
 const  Recipe: React.FunctionComponent< IDetailsRecipe> = (props) =>{

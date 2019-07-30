@@ -2,15 +2,14 @@ import React, { useContext, useEffect } from 'react';
  
 
  /** STORE  -INTERFACE -ACTIONS */
-import {Store } from '../Store';
-import { RecipeProps} from '../interfaces';
-import {fetchDataAction, toggleFavAction } from '../action';
+import {Store } from '../store';
+import { RecipeProps} from '../store/interfaces';
+import {fetchDataAction, toggleFavAction } from '../store/action';
 
 
  /** COMPONENTS */
 import Search from './Search';
 import RecipesList from './RecipesList';
-import showcase from "../showcase.jpeg";
 
 
 const Home: React.FunctionComponent<RecipeProps> = () =>  {
@@ -33,31 +32,10 @@ const Home: React.FunctionComponent<RecipeProps> = () =>  {
       error: state.error, 
     }
 
-
-  /** style for showcase bcg */
-    const divStyle = {
-        display: "flex",
-        justifyContent:"center",
-        alignItems:"center",
-        height: "90vh",
-        backgroundImage:
-          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(" +
-          showcase +
-          ")",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "center"
-      };
-      /**  end style for showcase bcg */
-
     return (
         <>
           <div className="container">
-           
-            <div style={divStyle}>
-               <Search
-                  {...props}/>  
-            </div>  
+               <Search {...props}/>  
           </div>
 
           <main>

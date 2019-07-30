@@ -1,7 +1,7 @@
 import React, { useContext} from 'react';
 import { BrowserRouter as Router, Route,  Switch} from "react-router-dom";
 /**STORE */
-import {Store } from './Store';
+import {Store } from './store';
 
 
 /**COMPONENTS */

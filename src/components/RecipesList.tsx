@@ -5,7 +5,7 @@ import { Link} from "react-router-dom";
 import {FaRegHeart } from 'react-icons/fa';
  
  /**  -INTERFACE */
-import {IRecipesAPI, RecipeProps} from '../interfaces';
+import {IRecipesAPI, RecipeProps} from '../store/interfaces';
 
  
 

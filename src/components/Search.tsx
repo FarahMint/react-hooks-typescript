@@ -1,10 +1,10 @@
 import React, {useState, useContext} from 'react';
 /**ACTION */
-import { searchRecipes} from '../action';
+import { searchRecipes} from '../store/action';
 /**ICON */
 import {FaSearch } from 'react-icons/fa';
 /**STORE */
-import {Store } from '../Store';
+import {Store } from '../store';
 
   const Search: React.FunctionComponent<any> = (props) =>  {
       /**get context from store */

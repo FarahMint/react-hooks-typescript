@@ -11,7 +11,7 @@ Build with:
 	3.	Typescript
 	4.	Food"Fork API
 
-     PS: This is a refactoring of this  project https://github.com/FarahMint/CookingChef. I used this project to learn more about typecript as well as context API
+PS: This is a refactoring of this  project https://github.com/FarahMint/CookingChef. I used this project to learn more about typecript as well as context API.
 
  ## 🧐 Need to work on:
     1.	when user make a research should scroll down  
@@ -28,24 +28,24 @@ A quick look at the top-level files and directories you'll see in my React proje
 
 FOLDER STRUCTURE
 ( ROOT )
-
---- index.js
---- app.js
-    --- components
-        --- Global
-            --Footer
-            --Navbar
-
-        --- FavouritesSelection
-        --- Home
-        --- RecipesList
-        --- Recipe 
-        --- Search
-
---- Store
-    -- Action
-    -- Store
-    -- Interface
+    .
+    ├── node_modules
+    ├── src
+    ├── app.ts
+    ├── index.ts
+        ├── components
+            ├── Global
+                ├── Navbar.tsx
+                ├── Footer.tsx
+            ├── FavouritesSelection.tsx
+            ├── Home.tsx
+            ├── RecipesList.tsx
+            ├── Recipe.tsx
+            ├── Search.tsx
+        ├── Store
+            ├── action.ts
+            ├── index.ts (store)
+            ├── interface.tsx
 
 
 ### `npm test`
@@ -68,7 +68,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 2.  **`Mobile & Tablet Landing page`**
-![1_mobile-landing-page](https://user-images.githubusercontent.com/18241226/62158874-62c99880-b308-11e9-9732-f497033e531d.png)![3_tablet-landing-page](https://user-images.githubusercontent.com/18241226/62158883-63fac580-b308-11e9-9bfc-024c73874d1b.png)
+<img align="left" src="https://user-images.githubusercontent.com/18241226/62158874-62c99880-b308-11e9-9732-f497033e531d.png" alt="1_mobile-landing-page" title="1_mobile-landing-page" hspace="20"/>
+<img align="left" src="https://user-images.githubusercontent.com/18241226/62158883-63fac580-b308-11e9-9bfc-024c73874d1b.png" alt="3_tablet-landing-page" title="3_tablet-landing-page" hspace="20"/>
+<br/><br/><br/><br/><br/>
+
 
 
 

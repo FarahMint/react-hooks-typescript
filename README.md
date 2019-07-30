@@ -42,7 +42,7 @@ FOLDER STRUCTURE
             ├── RecipesList.tsx
             ├── Recipe.tsx
             ├── Search.tsx
-        ├── Store
+    ├── Store
             ├── action.ts
             ├── index.ts (store)
             ├── interface.tsx

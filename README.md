@@ -88,7 +88,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 4.  **`Tablet Recipes list display`**
 <img src="https://user-images.githubusercontent.com/18241226/62158887-64935c00-b308-11e9-9725-b6a2d4c67a43.png" alt="tablet-recipes-list" title="tablet-recipes-list" hspace="20"/>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
  
 
 5.  **`Desktop search result display`**
@@ -103,9 +103,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
  
 
-
-
-
 7.  **`Mobile & Tablet recipe details display`**
 <img align="left" src="https://user-images.githubusercontent.com/18241226/62158878-63622f00-b308-11e9-8f15-607ccc02543b.png" alt="mobile-recipe-details" title="mobile-recipe-details" hspace="20"/>
 <img align="left" src="https://user-images.githubusercontent.com/18241226/62158879-63622f00-b308-11e9-9299-6f40513bf5a3.png" alt="tablet-recipe-details" title="tablet-recipe-details" hspace="20"/>
@@ -114,8 +111,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 
-
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 8.  **`Mobile & Tablet select favourite display`**
 <img align="left" src="https://user-images.githubusercontent.com/18241226/62158880-63622f00-b308-11e9-82e8-e53f6c70f155.png" alt="mobile-select-fav" title="mobile-select-fav" hspace="20"/>
 <img align="left" src="https://user-images.githubusercontent.com/18241226/62158885-63fac580-b308-11e9-9035-a5e75db7a1da.png" alt="tablet-recipe-favourites" title="tablet-recipe-favourites" hspace="20"/>
-<br/><br/><br/><br/><br/>

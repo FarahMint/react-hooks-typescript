@@ -74,9 +74,9 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 
-
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 3.  **`Desktop Recipes list display`**
-<img align="left" src="https://user-images.githubusercontent.com/18241226/62158869-62310200-b308-11e9-826b-fcd82a20c1b9.png" alt="desktop-recipes-list" title="desktop-recipes-list" hspace="20"/>
+<img src="https://user-images.githubusercontent.com/18241226/62158869-62310200-b308-11e9-826b-fcd82a20c1b9.png" alt="desktop-recipes-list" title="desktop-recipes-list" hspace="20"/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
  
 
@@ -84,19 +84,19 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 4.  **`Tablet Recipes list display`**
-<img align="left" src="https://user-images.githubusercontent.com/18241226/62158887-64935c00-b308-11e9-9725-b6a2d4c67a43.png" alt="tablet-recipes-list" title="tablet-recipes-list" hspace="20"/>
+<img src="https://user-images.githubusercontent.com/18241226/62158887-64935c00-b308-11e9-9725-b6a2d4c67a43.png" alt="tablet-recipes-list" title="tablet-recipes-list" hspace="20"/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
  
 
 5.  **`Desktop search result display`**
-<img align="left" src="https://user-images.githubusercontent.com/18241226/62158871-62c99880-b308-11e9-9e6e-dbe8b74f6870.png" alt="desktop-search-result title="desktop-search-result hspace="20"/>
+<img  src="https://user-images.githubusercontent.com/18241226/62158871-62c99880-b308-11e9-9e6e-dbe8b74f6870.png" alt="desktop-search-result" title="desktop-search-result" hspace="20"/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
 
 
 6.  **`Mobile search result display`**
-<img align="left" src="https://user-images.githubusercontent.com/18241226/62158876-62c99880-b308-11e9-9e22-eb14ffbe2d6a.png" alt="mobile-result" title="mobile-result" hspace="20"/>
+<img  src="https://user-images.githubusercontent.com/18241226/62158876-62c99880-b308-11e9-9e22-eb14ffbe2d6a.png" alt="mobile-result" title="mobile-result" hspace="20"/>
 <br/><br/><br/><br/><br/><br/><br/><br/><br/>
  
 

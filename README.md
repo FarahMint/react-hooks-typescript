@@ -70,13 +70,16 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 2.  **`Mobile & Tablet Landing page`**
 <img align="left" src="https://user-images.githubusercontent.com/18241226/62158874-62c99880-b308-11e9-9732-f497033e531d.png" alt="1_mobile-landing-page" title="1_mobile-landing-page" hspace="20"/>
 <img align="left" src="https://user-images.githubusercontent.com/18241226/62158883-63fac580-b308-11e9-9bfc-024c73874d1b.png" alt="3_tablet-landing-page" title="3_tablet-landing-page" hspace="20"/>
-<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 
 
 
 4.  **`Desktop Recipes list display`**
 ![1_desktop-recipes-list](https://user-images.githubusercontent.com/18241226/62158869-62310200-b308-11e9-826b-fcd82a20c1b9.png)
+
+
+
 
 5.  **`Tablet Recipes list display`**
 ![3_tablet-recipes-list](https://user-images.githubusercontent.com/18241226/62158887-64935c00-b308-11e9-9725-b6a2d4c67a43.png)
@@ -96,7 +99,10 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 
 8.  **`Mobile & Tablet recipe details display`**
-![2_mobile-recipe-details](https://user-images.githubusercontent.com/18241226/62158878-63622f00-b308-11e9-8f15-607ccc02543b.png)![2_tablet-recipe-details](https://user-images.githubusercontent.com/18241226/62158879-63622f00-b308-11e9-9299-6f40513bf5a3.png)
+<img align="left" src="https://user-images.githubusercontent.com/18241226/62158878-63622f00-b308-11e9-8f15-607ccc02543b.png" alt="mobile-recipe-details" title="mobile-recipe-details" hspace="20"/>
+<img align="left" src="https://user-images.githubusercontent.com/18241226/62158879-63622f00-b308-11e9-9299-6f40513bf5a3.png" alt="tablet-recipe-details" title="tablet-recipe-details" hspace="20"/>
+<br/><br/><br/><br/><br/><br/><br/><br/>
+
 
 
 
@@ -104,3 +110,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 10.  **`Mobile & Tablet select favourite display`**
 ![3_mobile-select-fav](https://user-images.githubusercontent.com/18241226/62158880-63622f00-b308-11e9-82e8-e53f6c70f155.png)![3_tablet-recipe-favourites](https://user-images.githubusercontent.com/18241226/62158885-63fac580-b308-11e9-9035-a5e75db7a1da.png)
 
+<img align="left" src="https://user-images.githubusercontent.com/18241226/62158880-63622f00-b308-11e9-82e8-e53f6c70f155.png" alt="mobile-select-fav" title="mobile-select-fav" hspace="20"/>
+<img align="left" src="https://user-images.githubusercontent.com/18241226/62158885-63fac580-b308-11e9-9035-a5e75db7a1da.png" alt="tablet-recipe-favourites" title="tablet-recipe-favourites" hspace="20"/>
+<br/><br/><br/><br/><br/>

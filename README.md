@@ -40,8 +40,7 @@ FOLDER STRUCTURE
         --- RecipesList.tsx
         ---  Recipe.tsx
         ---  Search.tsx
-            
-    
+               
 --- store (using the context api)
     --- action.ts
     --- index.ts (store)

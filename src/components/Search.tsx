@@ -7,15 +7,24 @@ import {FaSearch } from 'react-icons/fa';
 import {Store } from '../store';
 
   const Search: React.FunctionComponent<any> = (props) =>  {
+   
+  
+
       /**get context from store */
       const { dispatch}= useContext(Store);
       /**state hook for the form */
       const [input, setInput] = useState("");
+      
+ 
+
+       
 
       /** when user submit the form*/
       const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
            e.preventDefault();
            searchRecipes(input, dispatch);
+        
+        props.scrollToTestTitleRef();
            /**clear input field after user search */
            setInput("");
          };
@@ -40,7 +49,7 @@ import {Store } from '../store';
           </button>
 
         </form>
-          {props.error && <p className="error">{props.error}</p> }
+          {(props.error.msg && props.error.show)&& <p className="error">{props.error.msg}</p> }
       </div>
     )
 }

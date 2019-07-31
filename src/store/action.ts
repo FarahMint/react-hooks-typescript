@@ -6,8 +6,8 @@ const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY
  export  const fetchDataAction = async(dispatch:Dispatch )=>{
     try{
       //1 fetch data
-      const URL = `https://www.food2fork.com/api/search?key=${REACT_APP_API_KEY}`;
-      const data = await fetch(URL);
+      // const URL = `https://www.food2fork.com/api/search?key=${REACT_APP_API_KEY}`;
+      const data = await fetch("./data.json");
       //2 once we have data convert to json   
       const dataJSON= await data.json();
     
@@ -49,15 +49,19 @@ const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY
      const data = await fetch(`https://www.food2fork.com/api/search?key=${REACT_APP_API_KEY}&q=${search}`);
      //2 once we have data convert to json   
      const dataJSON= await data.json();
-    //  need to work on the logic
-    if(dataJSON.count === 0 || dataJSON.recipes.length === 0){
-
-       let msg = `sorry no accurate result was found`;
-
-       return dispatch({ type:'ERROR_SEARCH', payload: msg });
-    }
+    
+    //  if no result found show message
+     if(dataJSON.recipes.length === 0) {
+       dispatch({ type:'ERROR_SEARCH',
+        payload: {msg:"sorry there is no result",show:true }});
+       setTimeout(() => { 
+         dispatch({ type:'ERROR_SEARCH', payload: {msg:"",show:false }});
+       }, 3000);
+     }
    
-     // 3 dispatch - send data to action which then send to reducer - which then update store
+     
+ 
+     // or dispatch - send data to action which then send to reducer - which then update store
      return dispatch({ type:'SEARCH', payload: dataJSON })
    }catch(err){
    console.log(err);

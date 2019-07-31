@@ -3,6 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primaryColor: #f93f23;
   --mainWhite: #fff;
@@ -192,8 +197,7 @@ input:focus, select:focus, button:focus{
   position: absolute;
   top: -1px;
   background: var(--primaryColor);
-  padding: 0 5px;
-  border-radius: 30%;
+  padding: 0 2px;
   color: var(--mainWhite);
 
 }

@@ -14,11 +14,7 @@ Build with:
 PS: This is a refactoring of this  project https://github.com/FarahMint/CookingChef. I used this project to learn more about typecript as well as context API.
 
  ## 🧐 Need to work on:
-    1.	when user make a research should scroll down  
-	2.	during research user can either click on the search icon or type enter
-	3.	error message display and clear 
-
-
+    --create some test  
 
 
  ## 🧐 What's inside?
@@ -28,30 +24,30 @@ A quick look at the top-level files and directories you'll see in my React proje
 
 FOLDER STRUCTURE
 ( ROOT )
-    .
-    ├── node_modules
-    ├── src
-    ├── app.ts
-    ├── index.ts
-        ├── components
-            ├── Global
-                ├── Navbar.tsx
-                ├── Footer.tsx
-            ├── FavouritesSelection.tsx
-            ├── Home.tsx
-            ├── RecipesList.tsx
-            ├── Recipe.tsx
-            ├── Search.tsx
-    ├── Store
-            ├── action.ts
-            ├── index.ts (store)
-            ├── interface.tsx
 
+--- index.tsx
 
-### `npm test`
+--- app.tsx
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    --- components
+
+        --- Global
+            --Navbar.tsx
+            --Footer.tsx
+
+        --- Home.tsx
+        --- FavouritesSelection.tsx
+        --- RecipesList.tsx
+        ---  Recipe.tsx
+        ---  Search.tsx
+            
+    
+--- store (using the context api)
+    --- action.ts
+    --- index.ts (store)
+    --- interface.tsx
+
+    
 
  ## 💫 Deployed
 

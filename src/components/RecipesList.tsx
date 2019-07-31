@@ -12,9 +12,10 @@ import {IRecipesAPI, RecipeProps} from '../store/interfaces';
 const  RecipesList: React.FunctionComponent<RecipeProps> = (props) =>  {
     
 const{state, dispatch} = props.currentState;
+
    
     return(
-        <section className='recipes__layout'>
+        <section className='recipes__layout' id="recipe-list">
   
             { props.recipes && props.recipes.map((recipe:IRecipesAPI)=> {
                 return(

@@ -15,16 +15,15 @@ import {Store } from '../store';
       /**state hook for the form */
       const [input, setInput] = useState("");
       
- 
-
-       
-
       /** when user submit the form*/
       const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
            e.preventDefault();
            searchRecipes(input, dispatch);
-        
-        props.scrollToTestTitleRef();
+
+          //  if there is no error page scroll
+        if( !props.error && !props.error.show) {
+          props.scrollToTestTitleRef()
+        };
            /**clear input field after user search */
            setInput("");
          };

@@ -1,4 +1,4 @@
-import React, {useState, useContext} from 'react';
+import React, {useState, useContext } from 'react';
 /**ACTION */
 import { searchRecipes} from '../store/action';
 /**ICON */
@@ -17,16 +17,19 @@ import {Store } from '../store';
       
       /** when user submit the form*/
       const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-           e.preventDefault();
-           searchRecipes(input, dispatch);
-
-          //  if there is no error page scroll
-        if( !props.error && !props.error.show) {
-          props.scrollToTestTitleRef()
-        };
-           /**clear input field after user search */
-           setInput("");
+        e.preventDefault();        
+        searchRecipes(input, dispatch);
+        // NEED TO WORK ON THAT LOGIC
+        if (!props.error.msg && !props.error.show){
+          props.scrollToResult();
+        }
+        //  if there is no error page scroll
+        /**clear input field after user search */
+        setInput("");
          };
+    
+
+        
  
 
     return (

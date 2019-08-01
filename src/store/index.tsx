@@ -6,7 +6,7 @@ const initialState:IState={
     recipes: [],
     favourites:[],
     recipe:{},
-    error:""
+    error:{}
  };
  
 

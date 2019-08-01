@@ -28,7 +28,7 @@ const Home: React.FunctionComponent<RecipeProps> = () =>  {
     let myRef = React.createRef<HTMLHeadingElement>();
 
        // General scroll to element function
-    const scrollToTestTitleRef = () => {
+    const scrollToResult = () => {
       // case is ref is undefine
       if (!myRef.current) return;
 
@@ -45,7 +45,6 @@ const Home: React.FunctionComponent<RecipeProps> = () =>  {
     useEffect( () => {
       // if nothing in the arr then run action
       if( state.recipes.length === 0){
-
         fetchDataAction(dispatch);    
       }
     });
@@ -65,7 +64,7 @@ const Home: React.FunctionComponent<RecipeProps> = () =>  {
           <div className="container">
                <Search 
             // run this method to execute scrolling. 
-            scrollToTestTitleRef ={scrollToTestTitleRef }
+            scrollToResult={scrollToResult}
                {...props}/>  
           </div>
 

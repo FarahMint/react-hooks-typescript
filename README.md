@@ -14,6 +14,8 @@ Build with:
 PS: This is a refactoring of this  project https://github.com/FarahMint/CookingChef. I used this project to learn more about typecript as well as context API.
 
  ## 🧐 Need to work on:
+    --case :when a search result in no result - it still scrolling :( 
+        need to fix that
     --create some test  
 
 
